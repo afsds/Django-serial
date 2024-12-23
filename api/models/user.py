@@ -13,3 +13,4 @@ class User(models.Model):
     postal_code = models.CharField(max_length=12)
     address = models.TextField(max_length=100)
     address_2 = models.TextField(max_length=100, null=True, blank=True)
+
