@@ -15,3 +15,4 @@ def test_create_product():
     assert product.description == "Descrição de teste lalala"
     assert product.price == 999
     assert product.id is not None
+
