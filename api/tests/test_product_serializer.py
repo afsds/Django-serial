@@ -36,3 +36,4 @@ def test_product_serializer():
     assert serialized_data["title"] == data["title"]
     assert serialized_data["description"] == data["description"]
     assert serialized_data["price"] == data["price"]
+
